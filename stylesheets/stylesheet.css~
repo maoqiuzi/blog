@@ -48,16 +48,16 @@ table {
 
 /* LAYOUT STYLES */
 body {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.5; 
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
-  font-family: "Microsoft YaHei", 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  color: 0;		/*#6d6d6d*/
+  color: #6d6d6d;
 }
 
 a {
-  color: blue;
+  color: #d5000d;
 }
 a:hover {
   color: #c5000c;
@@ -69,7 +69,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif, "simsun"; font-weight: 900;
+  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 48px;
   color: #303030;
@@ -253,7 +253,7 @@ h2 {
 
 h3 {
   color: #d5000d;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
 } 
@@ -275,7 +275,6 @@ h6 {
 } 
 
 p {
-    text-indent: 2em;
   font-weight: 300;
   margin-bottom: 20px;
 }
