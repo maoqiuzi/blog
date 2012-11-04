@@ -93,6 +93,7 @@
 
 <div id="content">
 <h1 class="title">The Git Parable：Git传说</h1>
+<h2 style="color: #6d6d6d; font-size:18px; text-align: center; margin-left: 20em;">--------毛球子好为人师</h2>
 
 
 <div id="table-of-contents">
@@ -415,7 +416,7 @@
 
 <div id="postamble">
 <p class="date">Date: 2012-11-02 21:03:28 中国标准时间</p>
-<p class="author">Translated by:王金鹏 </p>
+<p class="author">Translated by:王金鹏 <a href="mailto:greywilliam333374@gmail.com">greywilliam333374@gmail.com</a></p>
 <p class="creator">Org version 7.8.11 with Emacs version 24</p>
 <a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a>
 
