@@ -1,9 +1,9 @@
-html,body {height:1360; width:960px; margin: 4px;}
+html,body {height: 1336; width: 960px; margin: 0;}
 
-.page {page-break-after: always;}
+.page {page-break-after: always; display: block; page-break-inside: avoid;}
 
 
-.card {width: 32%; height: 400px; float: left; border-bottom: 2px solid black; position: relative;}
+.card {width: 32%; height: 412px; float: left; border-bottom: 2px solid black; position: relative;}
 .cardCenter {width: 34%; border-left: 2px solid black; border-right: 2px solid black;}
 
 /* 标题 */

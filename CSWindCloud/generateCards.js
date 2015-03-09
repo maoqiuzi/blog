@@ -11,9 +11,9 @@ allCards.push(["夫优秀者", "fu4.jpg", "白天假装不优秀，每天晚上�
 allCards.push(["暖男", "tengjiao.jpg", "每天晚上可以保护一名不优秀者免于被嘲讽。但是暖男/女从来不会两天保护同一个人。暖男自恋时，可以保护自己。"]);
 allCards.push(["纯实力派/学霸", "zetao.jpg", "内心强大的生物，当被嘲讽或者被误认为夫优秀者投死时，可亮出学霸身份，使任意一名玩家羞愧难当致死。"]);
 allCards.push(["已婚长者", "costa2.jpg", "极度优秀的已婚长者，人生经验丰富，可免于一次嘲讽。"]);
-allCards.push(["八卦者", "wangxi.jpg", "擅长各种八卦，每晚可以确定一人身份，是否优秀。"]);
+allCards.push(["八卦者", "wangxi.jpg", "各种八卦，每晚可以确定一人身份，是否优秀。"]);
 allCards.push(["八卦者", "kexi2.jpg", "擅长各种爬虫技术，尝不小心爬遍某人关系网。每晚可以确定一人身份，是否优秀。"]);
-allCards.push(["纯偶像派/一脸", "xiaowu.jpg", "颜值奇高的生物，晚上可以刷脸，或嘲讽一名夫优秀者羞愧致死；或抚慰一颗被嘲讽过的心。"]);
+// allCards.push(["纯偶像派/一脸", "xiaowu.jpg", "颜值奇高的生物，晚上可以刷脸，或嘲讽一名夫优秀者羞愧致死；或抚慰一颗被嘲讽过的心。"]);
 allCards.push(["纯偶像派/一脸", "xiaolai.jpg", "颜值奇高的生物，晚上可以刷脸，或嘲讽一名夫优秀者羞愧致死；或抚慰一颗被嘲讽过的心。"]);
 allCards.push(["Wand", "wand.jpg", "在第一天可以指定任意玩家成为伙伴。"]);
 allCards.push(["三姐", "pavitra.jpg", "在被表决致死时，可以亮身份免死，但不能继续投票。亮身份后可以任意插话，但说话时必须摇头。"]);
@@ -24,12 +24,11 @@ allCards.push(["异国恋", "andy.jpg", "介于夫优秀者与不优秀者之间
 allCards.push(["异国恋", "fengge.jpg", "介于夫优秀者与不优秀者之间的群体，心理异常焦躁。当场面上出现平票时，被大家迁怒，卒。"]);
 
 
-
 for (cardIndex = 0; cardIndex < allCards.length; cardIndex++) {
     modPage = (cardIndex + 1) % 9;
     // the 1st card of a page
     if (modPage == 1) {
-	document.write("<div class='page'>");
+    	document.write("<div class='page'>");
     }
     cardData.title = allCards[cardIndex][0];
     cardData.picName = allCards[cardIndex][1];
@@ -41,7 +40,7 @@ for (cardIndex = 0; cardIndex < allCards.length; cardIndex++) {
     	generateCard(cardData);
     }
     // the 9th card of a page
-    if (modPage == 0) {
+    if (modPage == 0 || cardIndex == allCards.length - 1) {
 	document.write("</div>");
     }
 }
